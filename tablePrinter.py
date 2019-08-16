@@ -12,9 +12,9 @@ def printTable(lis):
         x += 1
     print(str)
 
-
 def maxItem(lis2):
     return len(max(lis2, key=len))
+
 
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
              ['Alice', 'Bob', 'Carol', 'David'],
