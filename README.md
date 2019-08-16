@@ -4,4 +4,4 @@ My Answers to Chapter Questions
 
 Run python files on terminal by:
 1) chmod +x FILE.py
-2) ./FILE.py [args if needed]
+2) ./FILE.py [args if needed and no brackets, commas]
