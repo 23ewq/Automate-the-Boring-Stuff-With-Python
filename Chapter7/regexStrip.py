@@ -7,8 +7,8 @@ in the second argument to the function will be removed from the string.
 
 import re
 
-def regex_strip(string, remove = 'l'):
-    strip_regex = re.compile('[%s]' % remove)
+def regex_strip(string, remove = ' '):
+    strip_regex = re.compile('[{}]'.format(remove))
     print(strip_regex.sub('', string))
 
-regex_strip("Hello I am John")
+regex_strip("Hello I am John", 'z')
