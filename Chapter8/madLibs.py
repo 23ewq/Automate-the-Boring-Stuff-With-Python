@@ -5,8 +5,8 @@
 textFile = open('textFile.txt', 'r')
 string = textFile.read()
 
-grammars = ['ADJECTIVE', 'NOUN', 'ADVERB', 'VERB']
-for i in grammars:
+POS = ['ADJECTIVE', 'NOUN', 'ADVERB', 'VERB']
+for i in POS:
     print('Enter an ' + i.lower() + ':' )
     x = str(input())
     string = string.replace(i, x)
